@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
-.App {
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+.app {
     width: 100%;
     background-color: #f0f0f0;
     color: white;
@@ -8,5 +8,21 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
     line-height: 1.5;
+    height: 100vh;
+}
+
+.app__content {
+    min-height: 80vh;
     position: relative;
+
+}
+
+.app__logo__wrapper {
+    padding: 2rem 0;
+}
+
+.app__logo {
+    font-family: 'Reem Kufi', sans-serif;
+    margin: 0;
+    
 }
