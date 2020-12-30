@@ -9,7 +9,7 @@ function HadithBox({ hadith, action, color }) {
         return <button style={{ backgroundColor: color }} className={classes.Button} onClick={handleClick}>{children}</button>
     }
 
-    let url = "https://hadith-generator.vercel.app";
+    let url = "https://random-hadith-generaor.vercel.app/";
 
 
     return (
